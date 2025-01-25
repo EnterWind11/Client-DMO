@@ -1,31 +1,31 @@
 # ClientBRDMO
 
-## Visão Geral
-Este é um projeto cliente desenvolvido em C++ usando Visual Studio, consistindo em múltiplos subprojetos organizados em diferentes categorias.
+## Overview
+This is a client project developed in C++ using Visual Studio, consisting of multiple subprojects organized into different categories.
 
-## Estrutura do Projeto
-O projeto está organizado nas seguintes categorias principais:
+## Project Structure
+The project is organized into the following main categories:
 
 ### CommonLib
-- **CsFunc**: Biblioteca de funções comuns
-- **CsThread**: Biblioteca para gerenciamento de threads
-- **CsFilePack**: Biblioteca para empacotamento de arquivos
-- **CsDM**: Módulo DM
+- **CsFunc**: Common functions library
+- **CsThread**: Thread management library
+- **CsFilePack**: File packaging library
+- **CsDM**: DM Module
 
 ### Network
-- **common**: Biblioteca comum de rede
-- **nlib**: Biblioteca de rede
+- **common**: Common network library
+- **nlib**: Network library
 
 ### Lib
-- **CsGamebryo2.3**: Integração com engine Gamebryo
-- **CsFileTable**: Gerenciamento de tabelas de arquivos
-- **CsGBChar**: Manipulação de caracteres
-- **lib_json**: Biblioteca JSON
+- **CsGamebryo2.3**: Gamebryo engine integration
+- **CsFileTable**: File table management
+- **CsGBChar**: Character manipulation
+- **lib_json**: JSON library
 
 ### Client
-- **DProject**: Projeto principal do cliente
+- **DProject**: Main client project
 
-## Estrutura de Pastas
+## Folder Structure
 ```plaintext
 .
 ├── .gitattributes
@@ -42,14 +42,14 @@ O projeto está organizado nas seguintes categorias principais:
 ├── .codebuddy
 ```
 
-## Requisitos do Sistema
+## System Requirements
 - Visual Studio 2022
 - Windows (Win32)
 - .NET Framework
-- Conhecimento básico de C++ e estruturas de projeto
+- Basic knowledge of C++ and project structures
 
-## Configurações de Build
-O projeto suporta as seguintes configurações:
+## Build Configurations
+The project supports the following configurations:
 - Debug
 - Release
 - Give
@@ -58,49 +58,49 @@ O projeto suporta as seguintes configurações:
 - Give_English_QA
 - Release_English
 
-## Instalação
+## Installation
 
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/kleberrhuan/ClientBRDMO.git
+   git clone https://github.com/EnterWind11/Client-DMO.git
    ```
-2. Abra `ClientBRDMO.sln` ou `DProject.sln` no Visual Studio
-3. Compile e execute o projeto usando as ferramentas de build do IDE
+2. Open `ClientBRDMO.sln` or `DProject.sln` in Visual Studio
+3. Build and run the project using the IDE's build tools
 
-### Execução
-- Use a configuração `Debug` ou `Release` conforme necessário
-- Consulte a documentação específica de cada módulo para mais detalhes
+### Execution
+- Use `Debug` or `Release` configuration as needed
+- Refer to specific module documentation for more details
 
-## Recursos Principais
-- Plugins abrangentes para ferramentas 3D
-- Estrutura modular para escalabilidade
-- Bibliotecas robustas para operações comuns
+## Main Features
+- Comprehensive plugins for 3D tools
+- Modular structure for scalability
+- Robust libraries for common operations
 
-## Contribuição
-Para contribuir com o projeto:
+## Contributing
+To contribute to the project:
 
-1. Faça fork do repositório
-2. Crie um branch para sua feature:
+1. Fork the repository
+2. Create a branch for your feature:
    ```bash
-   git checkout -b feature/sua-feature
+   git checkout -b feature/your-feature
    ```
-3. Faça commit das alterações:
+3. Commit your changes:
    ```bash
-   git commit -m "Adicione sua mensagem aqui"
+   git commit -m "Add your message here"
    ```
-4. Faça push para seu branch:
+4. Push to your branch:
    ```bash
-   git push origin feature/sua-feature
+   git push origin feature/your-feature
    ```
-5. Crie um Pull Request
+5. Create a Pull Request
 
-## Contato
+## Contact
 
-Para questões ou suporte, entre em contato:
+For questions or support, contact:
 
-- **Autor**: Morthing
+- **Author**: Morthing
 
 ---
 
-Sinta-se à vontade para modificar este modelo de acordo com as necessidades específicas do seu projeto.
+Feel free to modify this template according to your project's specific needs.
 
