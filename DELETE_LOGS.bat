@@ -1,0 +1,17 @@
+del .\Debug /q
+del .\build /q
+del .\Lib /q
+del .\Release /q
+del .\Release_DLL /q
+del .\common_vs2022\Debug /q
+del .\common_vs2022\Debug_DLL /q
+del .\common_vs2022\Release /q
+del .\common_vs2022\Release_DLL /q
+del .\DProject\Release_English /q
+del .\DProject\Give_English /q
+del .\DProject\Give_English_QA /q
+del .\DProject\Give /q
+del .\DProject\Debug /q
+del .\nlib\Debug /q
+del .\nlib\Give_English /q
+del .\nlib\Release /q
